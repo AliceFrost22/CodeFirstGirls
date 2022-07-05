@@ -18,18 +18,10 @@ h1{
     display:flex;
     justify-content: space-around;
 }
-a:link {
+a:link{
+    color:#f6d400;
     text-decoration: none;
-    }
-    a:hover {
-    color:#ffd700;
-    }
-    a:focus {
-    color : #ffd700; 
-    }
-    a:visited {
-      color: #e6c619;
-    }
+}
 hr{
     background-color:#f6d400;
     border: 5px solid #f6d400;
@@ -84,7 +76,6 @@ hr{
     padding:0%;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 3px 3px 3px 3px;  
 }
 .text-block
 {
@@ -101,24 +92,14 @@ hr{
 .containerOne
 {
     position: relative;
-    background-color: #cc1a38;
-    border-color:#f6d400;
-    border-width: 5px;
-    text-align: center;
-    color: #f6d400;
-    width: auto;
-    height: 300px;
-    font-size: 30px;
-    font-family: "Poppins";
-
+    border: #cc1a38;
+    border-width: 2px;
 }
-.containertwo
+.container
 {
     position: relative;
     background-color: #cc1a38;
     margin: 9%;
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding: 8px 8px 8px 8px;
     border:#f6d400;
     border-radius: 6px 6px 6px 6px;
@@ -128,13 +109,12 @@ hr{
 h2
 {
     font-family: "Poppins";
-    margin: 15px;
 }
 h3
 {
     width: 300px;
     height: 37px;
-    color:#cc1a38;
+    color: #f6d400;
     font-family: "Poppins";
     font-weight:bolder;
     font-size: 30px;
@@ -149,7 +129,7 @@ h4
     color: #f6d400;
     font-family: "Poppins";
     font-weight:bolder;
-    font-size: 40px;
+    font-size: 50px;
 }
 h5
 {
@@ -160,100 +140,74 @@ h5
     margin-bottom: 5px;
     margin-top: 5px;
 }
-.container-best
+#bestseller
 {
     font-family:'Poppins';   
-    font-size: 30px;
+    background-color:#f6d400; 
     color:#cc1a38;  
-    width:25%;
-    padding:0%;
-    margin-right: 30px;
-    margin-left: 30px;
-    display: inline-table;
-    justify-content: space-evenly;
-
+    width:400px;
+    height:100px;
 
 }
-.smal-banner
-{
-    display:flex;
-    justify-content: center;
-    font-family:'Poppins';   
-    font-weight: 400;
-    background-color: #f6d400; 
-    color: #cc1a38;
-    font-size: 30px;
-    width:60%;
-    height: 80px;
+.item-heading{
     text-align: center;
-    text-justify: auto;
-    padding:0%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 60px;
-    border-radius: 3px 3px 3px 3px;  
-}
-img
-{
-    border-radius: 3px 3px 3px 3px;
-}
-
-  
-.column 
-{
-    display: flex;  
-    flex-direction: row;
-    width: 25%;
-    padding: 5px;
-    border-width: 2px;
-    border-color:black;
-    border-radius: 3px 3px 3px 3px;
-}
-footer
-{
-    background-color: #cc1a38;
-    color:aliceblue;
-    font-family: "Poppins";
-    font-size: 25px;
-    text-align: center;
-    margin: 30px;
-}
-button{
-    font-family: "poppins";
-    font-size: 30px;
-    text-align: justify;
-}
-h6
-{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: 'Poppins';
+    background-color: #cc1a38; 
     color: #f6d400;
-    background-color: #cc1a38;
-    font-family: "Poppins";
-    font-weight:400;
-    font-size: 70px;
-    width: 900px;
-}
-#gallery
-{
-    display: flex;
-    justify-content: space-evenly;
-}
-p
-{
-    text-decoration: none;
-    font-family: "Poppins";
-    font-size: 20px;
-    color:#f6d400;
+    margin: 20px 150px;
     font-weight: bold;
+    border-radius: 5px;
+    height: 50px;
+}
 
+.input-box{
+    width:65%;
+    height: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display:block;
+    
 }
-p2
-{
-    color:#cc1a38;
-    font-family: "Poppins";
-    font-size:15px;
+fieldset{
+    width:100%;
+    height:500%;
+    margin-left: 15%;
+    font-size: 20px;
+    font-family: 'Poppins';
     font-weight: bold;
+    border: none;
+}
+label{
+    display: block;
+    margin-top: 1em;
+}
+#submit-button{
+    margin-top: 30px;
+    margin-left: 10%;
+    border-radius: 15px;
+    background-color: #cc1a38;
+    color: #f6d400;
+    font-size: 20px;
+    font-family: 'Poppins';
+    width:35%;
+    height: 50px;
+    font-weight: bold;
+}
+#icon-text {
+    display:flex;
+    text-align: center;
+    margin-right:25%;
+    margin-top: 10%;
+    background-color: #cc1a38;
+    font-family: 'Potta One';
+    font-size: 70px;
+    color: #ffd783;
+    width: 20%;
+    height:20%;
+    padding: 50px;
+}
+.form-content{
+    display:flex;
 }
